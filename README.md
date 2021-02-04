@@ -1,3 +1,6 @@
 # PageCliente
-Página feita para um cliente, em construção.
-<img src="img/page.gif">
+<p>Página feita para um cliente, em construção.<p><br>
+<div align="center">
+<img src="img/page.gif" height="425">
+<img src="img/pagemobile.gif" height="425">  
+ </div>
