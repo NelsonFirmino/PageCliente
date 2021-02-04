@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@1,700&family=Nunito+Sans:ital,wght@1,600&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        label[for="bt_menu"]{
+            padding: 5px;
+            background-color: #222;
+            color: #fff;            
+            text-align: center;
+            font-size: 30px;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+        }
+
+        #bt_menu{
+            display: none;            
+        }
+
+        label[for="bt_menu"]{
+            display: none;
+        }   
+
+        @media(max-width: 500px){
+            
+            label[for="bt_menu"]{
+                display: block;
+            }
+
+            #bt_menu:checked ~ nav{
+                margin-left: 0; 
+                display: block; 
+            }
+
+            nav{        
+                display: none;  
+            }
+
+            nav ul li {
+                width: 100%;
+                float: none;
+                font-weight: bold; 
+            }
+
+            nav ul ul{
+                position: static;
+                overflow: hidden;
+                max-width: 0;
+                transition:all .4s;
+                
+            }
+
+            .titulo{
+                display: none;
+            }
+
+        }
+        
+
+    </style>
+
+
+    <title>Flor do Sertão - Paisagismo</title>
+</head>
+<body>
+    <input type="checkbox" id="bt_menu">
+    <label for="bt_menu">&#9776;</label>
+
+    <nav>
+        <a class="titulo" href="">Flor do Sertão  Paisagismo</a>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="topo">
+        <h1>Flor do Sertão Paisagismo</h1>
+        <img class="logo" src="img/teste2.png" alt="">
+        <p>V𝚎𝚗𝚍𝚊𝚜 𝚘𝚗-𝚕𝚒𝚗𝚎 𝚍𝚎 𝚙𝚛𝚘𝚍𝚞𝚝𝚘𝚜 𝚍𝚎 𝚓𝚊𝚛𝚍𝚒𝚗𝚊𝚐𝚎𝚖 𝚎 𝚙𝚕𝚊𝚗𝚝𝚊s.<br>
+                𝙼𝚊𝚗𝚞𝚝𝚎𝚗çã𝚘 𝚍𝚎 𝚓𝚊𝚛𝚍𝚒𝚖 e 𝙴𝚡𝚎𝚌𝚞çã𝚘 𝚍𝚎 𝚙𝚛𝚘𝚓𝚎𝚝𝚘.                
+            </p>
+            <a href="#servicos" class="botao"> Ver mais...</a>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Atuamos na elaboração e execução de projetos para jardins, além do serviço de conservação e manutenção desses espaços. Seguindo um planejamento que promove o acompanhamento 
+            das espécies que compõem o jardim, utilizamos técnicas efetivas de adubação e controle de pragas e doenças, prevenindo perdas e objetivando minimizar custos,
+             e proporcionando qualidade e beleza dos jardins.
+            </p>
+            <a href="#contato" class="botao"> Contate-me</a>
+    </section>
+
+    <section id="servicos">
+
+        <div>
+            <img src="img/p1.png" alt="vendas">
+            <h3>Vendas Online</h3>
+            <p>Os Melhores produtos do mercado com o melhor preço.
+            </p>
+        </div>
+
+        <div>
+            <img src="img/p2.png" alt="manutenção">
+            <h3>Manutenção</h3>
+            <p>Mão de obra espelializada para seu jardim.
+            </p>
+        </div>
+
+        <div>
+            <img src="img/p3.png" alt="execução">
+            <h3>Execuções de projetos</h3>
+            <p>Atuamos na elaboração de projetos para todo o nincho residencial a empresarial.
+            </p>
+        </div>
+    </section>
+
+        <section id="fotos">
+            <h2>Fotos</h2>
+            <img src="img/ceu.jpg" alt="ceu">
+            <img src="img/grama.jpg" alt="ceu">
+            <img src="img/montanha.jpg" alt="ceu">
+            <img src="img/mar.jpg" alt="ceu">
+            <img src="img/arvores.jpg" alt="ceu">
+            <img src="img/ponte.jpg" alt="ceu"> 
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Não hesite em contactar-me</p>
+
+            <div>
+                <a href="https://api.whatsapp.com/send?phone=5584996878193" target="_blank"><img src="img/whatsapp_icon.png" alt="whats" width="64"></a>
+                <p>Bruno</p>
+            </div>
+            
+            <div>
+                <a href="https://api.whatsapp.com/send?phone=5584996878193" target="_blank"><img src="img/whatsapp_icon.png" alt="whats" width="64"></a>
+                <p>Júnior</p>
+            </div>
+
+            <div>
+                <a href="https://www.instagram.com/flordosertao_paisagismo/" target="_blank"><img src="img/icons8-instagram-64.png" width="64"></a>
+                <p>Instagram</p>
+               
+            </div>
+        </section>
+
+        <footer>                     
+            <a href="#topo"><img src="../TESTE SITE/img/seta-para-cima.png" alt="">   </a>
+            <a href="https://api.whatsapp.com/send?phone=5584994835826" target="_blank"><p>Copyright © 2021 - ETM CODE </p></a>
+            
+        </footer>
+
+   
+    
+</body>
+</html>

@@ -1,0 +1,304 @@
+body{
+    font-family: Nunito, sans-serif;
+    
+    color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    background-image:#fafafa;
+}
+
+h1, h2, h3{
+    font-family: Asap, sans-serif;
+    color: #000000;
+}
+
+.botao{
+    color: #573333;
+    text-decoration: none;
+    padding: 10px;
+    background-color:  #ffffff;
+    font-size: .9em;
+    border-radius: 3px;
+
+}
+
+
+/*  NAVEGAÇÃO*/
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: #ffffff;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    border-bottom: 2px solid;
+    transition: 1s;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+   
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #1c1c1c;
+    
+   
+}
+
+ul li a:hover{
+    border-bottom: 2px solid #8cc34b;
+    width: auto;
+    font-weight: bold;    
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*CABEÇALHO*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/camera.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #1c1c1c;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo{
+    width: 300px;
+    
+}
+
+header h1{
+    color: #050505;
+    background-color: rgba(200, 200, 200, .5);
+    border-radius: 5px;
+    
+    
+}
+
+header p{
+    margin-bottom: 2em;
+    background-color: rgba(200, 200, 200, .5);
+    border-radius: 5px;
+   font-size: 20px;
+
+
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-image: #ffffff;
+    color: #1c1c1c;
+
+}
+
+#sobre h2{
+    color: #000000;
+    font-size: 30px;
+    
+}
+
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    font-size: 20px;
+    color: #1c1c1c;
+    
+}
+
+#sobre .botao{
+    background-color: #f1f1f1;
+    color: #1c1c1c;    
+}
+
+/*SERVIÇOS*/
+
+#servicos{
+    background-color: #8cc34b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;  
+    box-shadow: 0px 0px 20px  #aaaaaae3;
+  
+}
+
+#servicos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#servicos p{
+    color:  #1c1c1c;
+}
+
+/*FOTOS*/
+
+#fotos {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#fotos h2{
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#fotos img{
+    box-shadow: 0px 0px 10px  #353535e3;
+    width: 100%;
+   
+}
+
+/*CONTATO*/
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#contato h2{
+    color: #000000;
+    font-size: 30px;
+}
+
+#contato p{
+    color: #000000;
+    font-weight: bold;
+}
+
+/*RODAPÉ*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #010D00;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffff;
+    
+}
+
+@media screen and (min-width: 768px){
+    /*nav*/
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+       
+    }
+
+   
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+    /*cabeçalho*/    
+        header{
+            height: 600px;
+            height: 60vh;
+            justify-content: center;
+            min-height: 250px;
+    
+        }
+
+        #servicos{
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        #servicos h2{
+            text-align: center;
+            width: 100%;
+        }
+
+        #servicos div{
+            flex-grow: 1;
+            flex-basis: 150px;
+            padding: 0 10px;
+        }
+
+        #fotos{
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+
+        #fotos h2{
+            width: 100%;
+            text-align: center;
+        }
+
+        #fotos img{
+            width: 33.3333333%;
+        }
+        /*CONTATO*/
+
+        #contato{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+
+        #contato h2, #contato p{
+            width: 100%;
+            
+
+        }
+    }
+
