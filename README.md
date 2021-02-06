@@ -1,6 +1,8 @@
 # PageCliente
-<p>Página feita para um cliente, em construção.<p><br>
+<p>Página para um cliente. em construção.<p><br>
+<p><b>Usando Apenas HTML e CSS</b></p><br>
+
 <div align="center">
-<img src="img/page.gif" height="425">
-<img src="img/pagemobile.gif" height="425">  
- </div>
+  <img src="img/page.gif" height="425">
+  <img src="img/pagemobile.gif" height="425">  
+</div>
