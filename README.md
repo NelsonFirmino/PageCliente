@@ -1,6 +1,14 @@
 # PageCliente
-<p>Página para um cliente. em construção.<p><br>
-<p><b>Usando Apenas HTML e CSS</b></p><br>
+<p>Página para um cliente. em construção.<p>
+<br>
+
+<p>Tecnologia utilizada:
+<b>
+   -HTML
+   -CSS
+</b>
+</p>
+<br>
 
 <div align="center">
   <img src="img/page.gif" height="425">
