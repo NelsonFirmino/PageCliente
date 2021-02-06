@@ -1,5 +1,5 @@
 # PageCliente
-<p>Página para um cliente. em construção.<p>
+<p>Página em construção para um cliente.<p>
 <br>
 
 <p>Tecnologia:<br>
