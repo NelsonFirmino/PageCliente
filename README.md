@@ -2,7 +2,7 @@
 <p>Página para um cliente. em construção.<p>
 <br>
 
-<p>Tecnologia utilizada:<br>
+<p>Tecnologia:<br>
 <b>
    -HTML
    -CSS
